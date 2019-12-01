@@ -1,0 +1,93 @@
+.qbody
+
+{
+	
+	background-image: url(../img/background.jpg);
+	
+	background-size: cover;
+
+	background-repeat: no-repeat;
+
+	color:white !important;
+
+}
+
+.services
+
+{
+
+	margin: 90px auto;
+
+	text-align:center;
+
+	padding-top: 1px;
+	
+
+}
+
+.qbody h1
+
+{
+
+	font-family: sans-serif;
+
+	letter-spacing: 1px;
+	color:white;
+}
+.qbody h3{
+	color:white;
+}
+
+h1:after
+
+{
+
+	content: '';
+
+	background:white;
+
+	display: block;
+
+	width:100px;
+
+	height: 3px;
+
+	margin: 10px auto;
+
+}
+.mySlides {display:none;}
+
+.para{
+
+	font-size: 20px;
+	color:white;	
+
+}
+
+.icon
+
+{
+
+	font-size: 40px;
+
+	margin: 20px auto;
+
+	padding: 20px;
+
+	height: 80px;
+
+	width: 80px;
+
+	border: 1px solid white;
+
+	border-radius: 50%;
+
+}
+
+.col-md-3:hover{
+
+	box-shadow: 5px 7px 9px -3px rgba(255,255,255,0.5);
+
+	cursor: pointer;
+
+}

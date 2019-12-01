@@ -1,0 +1,72 @@
+.bstudent{
+    margin: 0;
+    padding: 0;
+    background-image:url(../img/student.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height:120vh;
+}
+.aa{
+    width: 700px;
+    height: 630px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin: 0 auto;
+    margin-top:40px;
+    padding-top:9px;
+    padding-left:50px; 
+    border-radius:15px;
+    -webkit-border-radius:15px;
+    -o-border-radius:15px;
+    -moz-border-radius:15px;
+    color:black;
+    font-weight:bolder;
+    box-shadow: inset -4px -4px rgba(0,0,0,0.5);
+    font-size:18px;
+
+}
+.heading{
+    color:white;
+}
+.aa label{
+    color:white;
+}
+.aa input[type="text"],[type="email"]{
+    width:90%;
+    height:40px;
+    border:0;
+    border-radius:5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    padding-left:5px;
+
+}
+.aa button[type="submit"]{
+    width: 180px;
+    height: 45px;
+    border:0;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    -o-border-radius:5px;
+    -moz-border-radius:5px;
+    background-color:skyblue; 
+    padding-left:5px;
+   font-weight:bolder; 
+}
+.btn [type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #b80f22;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+
+  }
+  
+  .btn [type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+  }
